@@ -2,10 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: aquamarine;
 }
 
 .board {
     width: 500px;
     height: 500px;
     display: grid;
+    border: 2px solid black;
+    margin: 20px auto;
 }
+
+.title {
+    text-align: center;
+    padding: 15px;
+}
+
+.buttons, .input {
+    text-align: center;
+    padding: 2px;
+}
+
+button, input {
+    padding: 4px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
