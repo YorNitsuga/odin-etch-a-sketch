@@ -4,15 +4,8 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: aquamarine;
-    text-align: center;
-}
-
-div.board {
-    display: grid;
-    height: 500px;
+.board {
     width: 500px;
-    border: 1px solid black;
-    margin: 40px auto;
+    height: 500px;
+    display: grid;
 }
